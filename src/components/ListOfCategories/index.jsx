@@ -12,6 +12,7 @@ export const ListOfCategories = () => {
         setCategories(response)
       })
   }, [])
+
   return (
     <List>
       {
